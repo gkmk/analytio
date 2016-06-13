@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<graph top="0" left="0">
+	
+<!-- FONTS -->
+	<font>
+		<FontCaption font="Arial" size="14" color="000000" bold="false" italic="false"/>
+		<FontBase font="Arial" size="15" color="000000" bold="true" italic="true" align="right"/>
+		<FontAxis font="Arial" size="12" color="555555" bold="false" italic=""/>
+		<FontChart font="Arial" size="11" color="cccccc" bold="true" italic="false"/>
+		<FontLegend font="Arial" size="12" color="000000" bold="false" italic="false"/>
+		<FontTips font="Arial" size="10" color="000000" bold="false" italic="false"/>
+	</font>
+	
+<!-- TIPS -->
+	<tips font="FontTips">
+		<color>ffffff</color>
+		<borderColor>000000</borderColor>
+	</tips>
+	
+		
+<!-- GLOBAL SCENE -->
+	<chartScene width="200" height="200">
+		<color>cccccc, ffffff, ffffff</color>
+		<opacity>30, 10, 10</opacity>
+		<border>2</border>
+		<borderColor>cccccc</borderColor>
+	</chartScene>
+	
+	<base color="000000" font="FontBase"/>
+	<pieChart radius="90" linewidth="1" lineopacity="35" lineColor="22AA48"/>
+
+<!-- STYLE AND DATA 1 -->
+	<chartstyle name="myline">
+		<type>pie</type>
+		<font>FontChart</font>
+		<name>Patterns</name>
+		<tips>on</tips>
+		<lineColor>22AA48</lineColor>
+		<color>0000ff,00ff00,ff0000</color>
+		<opacity>50,50,50</opacity>
+		<knotType>circle</knotType>
+		<knotSize>10</knotSize>
+		<line>1</line>		<nullLine>2</nullLine>
+		<columnTargetColor>FFFFFFF</columnTargetColor>
+		<columnWidth>20</columnWidth>
+		<pointTitles>off</pointTitles>
+	</chartstyle>	
+	<chart chartstyle="myline">
+		<set name="Matching" value="0" color="15A3C4"/>
+		<set name="Not matching" value="101" color="CCCCCC"/>
+	</chart>
+	
+	</graph>

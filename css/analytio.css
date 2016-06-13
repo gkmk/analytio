@@ -1,0 +1,112 @@
+@charset "utf-8";
+
+body {
+	margin: 10px 0;
+	padding: 0;
+}
+h1,h2,h3,h4,h5{
+	margin:5px;
+	padding:0;
+}
+button {
+	padding: 5px;
+	margin: 5px;
+	background-color:#797c96;
+	color:#FFF;
+}
+button[disabled] {
+	color:#999;
+	background-color: buttonface;
+}
+
+select {
+	min-width: 200px;
+}
+
+#alertNfo {
+	position:absolute;
+	top: 10px;
+	z-index:10;
+	width:500px;
+	margin:20px auto;
+	background-color:#FFC;
+}
+
+#main_cont {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	font-style: normal;
+	line-height: normal;
+	font-weight: normal;
+	font-variant: normal;
+	width: 100%;
+	min-width:1024px;
+	margin: 0 auto;
+	text-align:center;
+}
+
+#left_frame {
+	width: 230px;
+	float: left;
+}
+
+#center_frame {
+	width: 570px;
+	margin:0 10px;
+	float: left;
+}
+
+#right_frame {
+	width:200px;
+	float: left;
+}
+
+.clear {
+	clear:both;
+}
+
+.unsafe {
+	color:#F60;
+}
+.active {
+	background-color:#FC3 !important;
+}
+
+#theTable {
+	height: 300px;
+	overflow:auto;
+	border:thin #CCC solid;
+}
+#theTable table {
+	border:thin #333 solid;
+	width:100%;
+}
+#theTable th {
+	background-color:#CCC;
+	padding:5px;
+}
+#theTable td {
+	border:thin #333 solid;
+	padding:5px;
+}
+#theTable .ln1 {
+	background-color:#FFC;
+}
+#theTable tr:hover {
+	background-color:#CC9;
+}
+#BtransFile {
+	 width:64px; height:64px; border:none; padding:0; margin:5px; 
+	 position:absolute;
+	 left:250px;
+	 top: 660px;
+}
+
+/*	IKONI */
+.icon {width:32px; height:32px; border:none; padding:0; margin:5px; }
+.loadFile { background:url(../images/buttons/folder_sent_mail-256.png) no-repeat ;  }
+.saveFile { background:url(../images/buttons/filesave-256.png) no-repeat ;  }
+.delFile { background:url(../images/buttons/agt_stop-256.png) no-repeat ;  }
+.trasnfer { background:url(../images/buttons/agt_reload-256.png) no-repeat ; }
+.tinac {  background:url(../images/buttons/reload-256inactive.png) no-repeat  !important; }
+.inactive {background-color:#666; visibility:hidden;}
